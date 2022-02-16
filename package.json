@@ -1,0 +1,19 @@
+{
+  "name": "again",
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "npx @11ty/eleventy",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "full": "npm run build && npm run preview"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "alpinejs": "^3.8.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19",
+    "vite": "^2.7.2"
+  }
+}
